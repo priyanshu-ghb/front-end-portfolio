@@ -1,7 +1,8 @@
+/* Fonts */
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
-        url('../fonts/Montserrat-Light.woff') format('woff');
+    src: url('/fonts/Montserrat-Light.woff2') format('woff2'),
+        url('/fonts/Montserrat-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -9,8 +10,8 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
-        url('../fonts/Montserrat-Bold.woff') format('woff');
+    src: url('/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('/fonts/Montserrat-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,8 +19,8 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
-        url('../fonts/Montserrat-Medium.woff') format('woff');
+    src: url('/fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('/fonts/Montserrat-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -27,8 +28,8 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
-        url('../fonts/Montserrat-SemiBold.woff') format('woff');
+    src: url('/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('/fonts/Montserrat-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -36,8 +37,8 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
-        url('../fonts/Montserrat-Regular.woff') format('woff');
+    src: url('/fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('/fonts/Montserrat-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -49,6 +50,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+         local('MaterialIcons-Regular'),
+         url('icons/MaterialIcons-Regular.woff2') format('woff2'),
+         url('icons/MaterialIcons-Regular.woff') format('woff'),
+         url('icons/MaterialIcons-Regular.ttf') format('truetype');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -98,3 +136,156 @@ table {
 	border-spacing: 0;
 }
 
+/* custom css */
+
+/* Header */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.header-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.logo-left {
+    display: inline-block;
+    margin-top: 40px;
+}
+.nav-right {
+    float: right;
+}
+.user-icons {
+    float: right;
+}
+nav.main-nav {
+    float: left;
+}
+
+/* main-navigation */
+nav.main-nav {
+    float: left;
+    background-color: rgba(40,25, 35, 0.6);
+}
+nav.main-nav ul li {
+    display: inline-block;
+    margin: 40px 32px;
+}
+nav.main-nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+/* user-icons */
+.user-icons img {
+    padding: 27px 40px;
+}
+.user-icons {
+    float: right;
+    background-color: #A80E0E;
+    cursor: pointer;
+}
+
+/* main-content */
+.main-content {
+    background-image: url(../images/bg-img.svg);
+    background-size: cover;
+    max-width: 100%;
+}
+.container {
+    max-width: 1600px;
+    margin: 0px auto;
+    width: 100%;
+    position: relative;
+    min-height: 1080px;
+    padding: 0 24px;
+}
+.hero-content {
+    display: inline-block;
+    position: absolute;
+    top: 406px;
+    left: 32px;
+}
+.hero-content h1 {
+    font-size: 96px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.hero-content p {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 72px;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 40px;
+    position: relative;
+}
+.hero-content p::before {
+    content: "";
+    background-image: url(../images/brush-img.svg);
+    position: absolute;
+    height: 132px;
+    width: 782px;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.order-now-btn {
+    display: inline-block;
+    margin-top: 88px;
+}
+.order-now-btn a {
+    background-color: #FFAA00;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 16px 69px 16px 69px;
+    border-radius: 80px;
+    color: #A80E0E;
+    font-weight: 400;
+}
+
+/* about-section */
+.want-to-eat {
+    margin-top: 148px;
+}
+.eat-title {
+    text-align: center;
+}
+.eat-title h2 {
+    color: #A80E0E;
+    font-size: 50px;
+    font-weight: 400;
+}
+.eat-title img {
+    margin: 12px 0 18px;
+}
+.eat-title p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.food-options {
+    margin-top: 140px;
+}
+.food-options ul {
+    display: flex;
+    justify-content: space-between;
+}
+.food-options ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.food-options ul li img {
+    padding-bottom: 40px;
+}
