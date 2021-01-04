@@ -104,7 +104,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     color: #000;
     font-size: 16px;
     font-weight: 400;
@@ -196,13 +196,13 @@ nav.main-nav ul li a{
     background-image: url(../images/bg-img.svg);
     background-size: cover;
     max-width: 100%;
+    z-index: -15;
+    min-height: 1080px;
 }
 .container {
     max-width: 1600px;
     margin: 0px auto;
-    width: 100%;
     position: relative;
-    min-height: 1080px;
     padding: 0 24px;
 }
 .hero-content {
@@ -236,6 +236,7 @@ nav.main-nav ul li a{
     left: 0;
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: -1;
 }
 .order-now-btn {
     display: inline-block;
@@ -258,7 +259,7 @@ nav.main-nav ul li a{
 .eat-title {
     text-align: center;
 }
-.eat-title h2 {
+h2 {
     color: #A80E0E;
     font-size: 50px;
     font-weight: 400;
@@ -271,7 +272,9 @@ nav.main-nav ul li a{
     font-weight: 300;
 }
 .food-options {
-    margin-top: 140px;
+    max-width: 1600px;
+    margin: 140px auto 0;
+    padding: 0 32px;
 }
 .food-options ul {
     display: flex;
@@ -289,3 +292,400 @@ nav.main-nav ul li a{
 .food-options ul li img {
     padding-bottom: 40px;
 }
+.delivery {
+    background: url(../images/yellow-bg-img.png);
+    background-position: 0 0;
+    background-size: cover;
+    height: 891px;
+    z-index: -1;
+    margin-top: 188px;
+}
+.deliver-info {
+    float: right;
+    padding: 452px 565px 365px 0;
+}
+.deliver-info h3 {
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.deliver-info p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 64px;
+    text-transform: capitalize;
+}
+.deliver-info h3::before {
+    content: "";
+    background: url(../images/red-brush.svg);
+    width: 1037px;
+    height: 212px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: -69px;
+    z-index: -1;
+    background-position: center center;
+    overflow: visible;
+    right: -530px;
+}
+
+
+/* Our Recipes Section */
+.our-recipes {
+    margin-top: 108px;
+}
+.recipes-title {
+    text-align: center;
+}
+.recipes-title img {
+    margin: 12px 0 18px;
+}
+.recipes-title p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.recipes-cards {
+    margin-top: 118px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-common {
+    padding: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #00000012;
+    margin-top: 56px;
+}
+.card-common span {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 34px;
+    padding: 0 32px;
+}
+.recipe-name {
+    margin-top: 17px;
+    padding: 0 32px;
+}
+.recipe-name h6 {
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+.price {
+    margin: 30px 0 32px 0;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+}
+.price button {
+    border: none;
+    background-color: #FFAA00;
+    padding: 12px 23px 10px 55px;
+    border-radius: 50px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+.price h5 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #A80E0E;
+    margin-left: 12px;
+}
+.price button::before {
+    content: "";
+    background: url(../images/add-to-cart.svg);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 28px;
+}
+.red-btn {
+    text-align: center;
+    margin-top: 108px;
+}
+.red-btn button {
+    
+    border: none;
+    background-color: #A80E0E;
+    padding: 24px 51px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/* Happy Hours Section */
+
+.happy-hours{
+    margin-top: 108px;
+    background-image: url('../images/happy-hours-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    height: 920px;
+    z-index: -1;
+    position: relative;
+}
+.happy-hours-info {
+    position: absolute;
+    display: inline-block;
+    top: 286px;
+    left: 235px;
+}
+.happy-hours-info h3 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.happy-hours-info p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 50px;
+    margin-top: 24px;
+    text-transform: capitalize;
+}
+.hours-timer {
+    display: flex;
+    margin-top: 44px;
+    margin-left: 12px;
+}
+.hours-timer span {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.hours-timer p {
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 0 0 65px;
+    position: relative;
+    text-align: center;
+}
+.hours-timer p:first-child{
+    margin:0;
+}
+.hours-timer p::before {
+    content: "";
+    background-color: #FFAA00;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    z-index: -1;
+    width: 80px;
+    height: 64px;
+    border-radius: 4px;
+}
+.hours-timer p:nth-child(3)::before{
+    left: 0;
+}
+.hours-timer p:nth-child(4)::before {
+    left: -13px;
+}
+.hours-timer p:nth-child(2)::before {
+    left: -13px;
+}
+
+/* Client Testimonials */
+
+.client-testimonials {
+    margin-top: 104px;
+}
+.review-content {
+    margin-top: 126px;
+    position: relative;
+}
+.review-img {
+    display: inline-block;
+    position: relative;
+}
+.red-box {
+    width: 414px;
+    height: 363px;
+    background-color: #A80E0E;
+    border-radius: 18px;
+    position: absolute;
+    top: 366px;
+    left: -140px;
+    z-index: -1;
+}
+.review-info {
+    float: right;
+    position: relative;
+    top: 90px;
+}
+.review-info p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 54px;
+}
+.reviewer h4 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 56px;
+    position: relative;
+}
+.reviewer p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+.reviewer h4::before {
+    content: "";
+    background-color: red;
+    width: 58px;
+    height: 2px;
+    position: absolute;
+    left: 201px;
+    top: 13px;
+}
+
+
+/* Services Section */
+.services {
+    margin-top: 155px;
+    background: url('../images/yellow-brush-bg.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    overflow: visible;
+}
+.service-common {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0 54px;
+    vertical-align: middle;
+    margin: 210px 49px 151px 0;
+    position: relative;
+}
+.service-common:last-child {
+    margin-right: 0;
+}
+.serivice-wrap {
+    padding: 0 98px;
+}
+.service-common img {
+    margin-top: 34px;
+}
+.service-common h6 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.service-common h6::after {
+    content: "";
+    background-color: #FFAA00;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    left: 124px;
+    right: 0;
+    top: 185px;
+}
+.service-common p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 48px 0 51px 0;
+}
+.service-common h6::after {
+    content: "";
+    background-color: #FFAA00;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    left: 122px;
+    right: 0;
+    top: 185px;
+}
+
+/* Footer */
+.address {
+    display: inline-block;
+    margin: 106px 0;
+}
+.address a {
+    text-decoration: none;
+    background-color: #FFAA00;
+    color: #fff;
+    padding: 12px 34px;
+    border-radius: 80px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.address h4 {
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+.address-contact {
+    background-color: #A80E0E;
+}
+.ad-common {
+    display: flex;
+    align-items: center;
+}
+.hours {
+    margin-top: 32px;
+}
+.ny-adress {
+    margin-top: 60px;
+}
+.ad-common p {
+    margin-left: 28px;
+    text-align: left;
+    color: #fff;
+}
+.ny-adress img {
+    margin-left: 7px;
+}
+.social-icons {
+    margin-top: 56px;
+}
+.social-icons img {
+    margin-left: 20px;
+}
+.social-icons img:first-child {
+    margin-left: 0;
+}
+.geo-map {
+    float: right;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    right: -151px;
+}
+.info img {
+    margin-top: 98px;
+}
+.info p {
+    margin-top: 32px;
+}
+.payment-options img {
+    margin-top: 12px;
+}
+.info, .footer-nav, .instagram-feed {
+    display: inline-block;
+}
+
+
+
+
+
