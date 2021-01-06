@@ -1,0 +1,29 @@
+<svg id="communication-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc200;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: red;
+      }
+
+      .cls-4 {
+        fill: #753ad7;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Mask" class="cls-1" width="20" height="20" rx="4"/>
+    </clipPath>
+  </defs>
+  <rect id="Mask-2" data-name="Mask" class="cls-1" width="20" height="20" rx="4"/>
+  <g id="Icon" class="cls-2">
+    <path id="Rectangle_2_Copy_2" data-name="Rectangle 2 Copy 2" class="cls-3" d="M25.2,0V20H0Q3.219,9.7,12.335,8.066T25.2,0Z" transform="translate(-5.102 4.281)"/>
+    <path id="Rectangle_2" data-name="Rectangle 2" class="cls-4" d="M15.992,11.315C24.705,8.9,25.2,0,25.2,0V19.9H0s4.864-5.626,7.926-7.086S13.065,12.126,15.992,11.315Z" transform="translate(-5.102 4.38)"/>
+  </g>
+</svg>

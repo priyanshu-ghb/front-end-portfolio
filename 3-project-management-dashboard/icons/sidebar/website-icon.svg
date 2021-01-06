@@ -1,0 +1,44 @@
+<svg id="website-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc200;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #753ad7;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: red;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Mask" class="cls-1" width="20" height="20" rx="4"/>
+    </clipPath>
+  </defs>
+  <rect id="Mask-2" data-name="Mask" class="cls-1" width="20" height="20" rx="4"/>
+  <g id="Icon" class="cls-2">
+    <g id="Shapes" transform="translate(-1.701 -9.281)">
+      <path id="Rectangle_2_Copy_2" data-name="Rectangle 2 Copy 2" class="cls-3" d="M.024,4.007a4,4,0,0,1,4-4L13.648,0a4,4,0,0,1,4,4l-.024,19.968a4,4,0,0,1-4,4L4,27.98a4,4,0,0,1-4-4Z" transform="matrix(0.839, -0.545, 0.545, 0.839, 11.537, 9.614)"/>
+      <g id="Oval_4_Copy" data-name="Oval 4 Copy" class="cls-4" transform="translate(0 16.538)">
+        <ellipse class="cls-5" cx="7.664" cy="7.684" rx="7.664" ry="7.684"/>
+        <ellipse class="cls-6" cx="7.664" cy="7.684" rx="5.664" ry="5.684"/>
+      </g>
+    </g>
+  </g>
+</svg>

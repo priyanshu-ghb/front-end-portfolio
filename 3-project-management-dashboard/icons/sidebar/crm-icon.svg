@@ -1,0 +1,29 @@
+<svg id="crm-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc200;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: red;
+      }
+
+      .cls-4 {
+        fill: #753ad7;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Mask" class="cls-1" width="20" height="20" rx="4"/>
+    </clipPath>
+  </defs>
+  <rect id="Mask-2" data-name="Mask" class="cls-1" width="20" height="20" rx="4"/>
+  <g id="Icon" class="cls-2">
+    <path id="Rectangle_2_Copy" data-name="Rectangle 2 Copy" class="cls-3" d="M1.008,3.864l2.85-2.851a3.457,3.457,0,0,1,4.882-.006l.006.006L11.6,3.864a3.44,3.44,0,0,1,0,4.865L8.746,11.58a3.457,3.457,0,0,1-4.882.006l-.006-.006L1.008,8.729A3.44,3.44,0,0,1,1.008,3.864Z" transform="translate(11.424 15.378)"/>
+    <path id="Rectangle_2_Copy_2" data-name="Rectangle 2 Copy 2" class="cls-4" d="M1.008,3.864l2.85-2.851a3.457,3.457,0,0,1,4.882-.006l.006.006L11.6,3.864a3.44,3.44,0,0,1,0,4.865L8.746,11.58a3.457,3.457,0,0,1-4.882.006l-.006-.006L1.008,8.729A3.44,3.44,0,0,1,1.008,3.864Z" transform="translate(2.479 1.904)"/>
+  </g>
+</svg>
