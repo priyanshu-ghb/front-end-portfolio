@@ -19,7 +19,7 @@
                               .cls-1 {
                                 fill: #fff;
                                 font-size: 16px;
-                                font-family: Heebo-Black, Heebo;
+                                font-family: Heebo-Black, Heebo,sans-serif;
                                 font-weight: 800;
                                 letter-spacing: 0.072em;
                               }
@@ -54,7 +54,125 @@
             </svg>                        
           </div>                                         
         </div>
+        <div class="sidebar-user-profile">
+          <div class="profile-wrap">
+            <div class="profile-picture">
+              <img src="images/profile-picture.png" alt="profile-picture">
+            </div>
+            <div class="user-name-position heebo-bold-medium">
+              <h5>Emilee Simchenko</h5>
+              <h6>Product Owner</h6>  
+            </div>
+              <a href="#"><svg class="expand-more" xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4">
+                <defs>
+                  <style>
+                    .cls-more {
+                      fill: #9b9b9b;
+                    }
+                  </style>
+                </defs>
+                <path id="more-icon" class="cls-more" d="M12,2a2,2,0,1,1,2,2A2,2,0,0,1,12,2ZM6,2A2,2,0,1,1,8,4,2,2,0,0,1,6,2ZM0,2A2,2,0,1,1,2,4,2,2,0,0,1,0,2Z"/>
+              </svg></a>
+          </div>
+        </div>
+        <nav class="sidebar-navigation">
+          <div class="sidebar-wrap">
+            <div class="task-overview heebo-bold-medium">
+              <div class="completed-tasks">
+                <h4>372</h4>
+                <h6>Completed Tasks</h6>
+              </div> 
+              <div class="open-tasks">
+                <h4>11</h4>
+                <h6>Open Tasks</h6>
+              </div> 
+            </div>
+            <div class="sidebar-menu">
+              <h6>menu</h6>
+              <ul class="menu-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Tasks</a></li>
+                <li><a href="#">Notifications<span>3</span></a></li>
+              </ul>
+            </div>
+            <div class="sidebar-menu sidebar-projects">
+              <h6>projects</h6>
+              <ul class="menu-nav">
+                <li><a href="#"><img src="icons/sidebar/dahboard-icon.svg" alt="icon">Dashboard UI Kit</a></li>
+                <li><a href="#"><img src="icons/sidebar/crm-icon.svg" alt="icon">CRM System</a></li>
+                <li class="active"><a href="#"><img src="icons/sidebar/website-icon.svg" alt="icon">Website Redesign</a></li>
+                <li><a href="#"><img src="icons/sidebar/communication-icon.svg" alt="icon">Communication Tool</a></li>
+                <button class="add-project-btn"> + Add a Project</button>       
+              </ul>
+            </div>
+            <div class="sidebar-menu sidebar-teams">
+              <h6>teams</h6>
+              <ul class="menu-nav">
+                <li>
+                  <a href="#">Designers</a>
+                  <div class="avatar-wrap">
+                    <img src="images/team-pic.png" alt="team-member">
+                    <img src="images/team-pic-2.png" alt="team-member">
+                    <img src="images/team-pic-3.png" alt="team-member">
+                  </div>
+                </li>
+                <li>
+                  <a href="#">Backend</a>
+                  <div class="avatar-wrap-backend">
+                    <img src="images/team-pic-2.png" alt="team-member">
+                    <img src="images/team-pic-3.png" alt="team-member">
+                  </div>
+                </li>
+                <li>
+                  <a href="#">Frontend</a>
+                  <div class="avatar-wrap-frontend">
+                    <img src="images/team-pic.png" alt="team-member">
+                    <img src="images/team-pic-2.png" alt="team-member">
+                    <img src="images/team-pic-3.png" alt="team-member">
+                  </div>
+                </li>
+                <button class="add-project-btn"> + Add a Team</button>       
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="invite-link">
+          <p><a href="#">Invite your team</a> and start collaborating!</p>
+        </div>
       </aside>
+      <main class="main-content">
+        <header>
+          <div class="header-wrap">
+            <div class="header-top">
+              <div class="title-row">
+                <div class="task-title">
+                  <svg id="website-title-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+                    <defs>
+                      <clipPath id="clip-path">
+                        <rect id="Mask" width="40" height="40" rx="8" fill="#ffc200"/>
+                      </clipPath>
+                    </defs>
+                    <rect id="Mask-2" data-name="Mask" width="40" height="40" rx="8" fill="#ffc200"/>
+                    <g id="Icon" clip-path="url(#clip-path)">
+                      <g id="Shapes" transform="translate(-3 -18.753)">
+                        <path id="Rectangle_2_Copy_2" data-name="Rectangle 2 Copy 2" d="M.058,4.028a4,4,0,0,1,4-4L31.31,0a4,4,0,0,1,4,4l-.058,47.936a4,4,0,0,1-4,4L4,55.969a4,4,0,0,1-4-4Z" transform="matrix(0.839, -0.545, 0.545, 0.839, 22.665, 19.418)" fill="#753ad7"/>
+                        <g id="Oval_4_Copy" data-name="Oval 4 Copy" transform="translate(0.598 30.267)" fill="none" stroke="red" stroke-miterlimit="10" stroke-width="6">
+                          <ellipse cx="15.328" cy="15.369" rx="15.328" ry="15.369" stroke="none"/>
+                          <ellipse cx="15.328" cy="15.369" rx="12.328" ry="12.369" fill="none"/>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <h1>website</h1>
+                  <div class="more-options">
+                    <img src="icons/sidebar/more-icon.svg" alt="expand-more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </main>
     </section>
   </div>
 </body>

@@ -1,0 +1,17 @@
+<svg id="website-title-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="40" height="40" rx="8" fill="#ffc200"/>
+    </clipPath>
+  </defs>
+  <rect id="Mask-2" data-name="Mask" width="40" height="40" rx="8" fill="#ffc200"/>
+  <g id="Icon" clip-path="url(#clip-path)">
+    <g id="Shapes" transform="translate(-3 -18.753)">
+      <path id="Rectangle_2_Copy_2" data-name="Rectangle 2 Copy 2" d="M.058,4.028a4,4,0,0,1,4-4L31.31,0a4,4,0,0,1,4,4l-.058,47.936a4,4,0,0,1-4,4L4,55.969a4,4,0,0,1-4-4Z" transform="matrix(0.839, -0.545, 0.545, 0.839, 22.665, 19.418)" fill="#753ad7"/>
+      <g id="Oval_4_Copy" data-name="Oval 4 Copy" transform="translate(0.598 30.267)" fill="none" stroke="red" stroke-miterlimit="10" stroke-width="6">
+        <ellipse cx="15.328" cy="15.369" rx="15.328" ry="15.369" stroke="none"/>
+        <ellipse cx="15.328" cy="15.369" rx="12.328" ry="12.369" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

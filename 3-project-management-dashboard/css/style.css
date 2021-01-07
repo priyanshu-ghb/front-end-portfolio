@@ -75,7 +75,11 @@
     font-style: normal;
     font-display: swap;
 }
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -93,7 +97,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -104,21 +107,17 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    font-family: 'Heebo';
+    font-family: 'Heebo', sans-serif;
     font-size: 16px;
     background-color: #EEEBE5;
     overflow-x: hidden;
+    
 }
 ol, ul {
 	list-style: none;
 }
 blockquote, q {
 	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
 }
 table {
 	border-collapse: collapse;
@@ -148,12 +147,28 @@ table {
     font-weight: bold;
     color: #fbfbfb;
 }
-h6{
-    font-size: 12px;
-    font-weight: bold;
-    color: #878787;
-}
+/* Custom Scroll Bar */
 
+     /* width */
+     ::-webkit-scrollbar {
+        width: 8px;
+    }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background-color: #484848;
+    }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #FFC200;
+        border-radius: 30px;
+    }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background:#FFC200 ; 
+    }
 
 
 
@@ -163,15 +178,18 @@ h6{
 
 .app-sidebar {
     float: left;
-    min-height: 100vh;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #121212;
     width: 270px;
+    overflow: auto;
+    scroll-behavior: smooth;
 }
 .sidebar-header {
     padding: 30px 20px 30px 30px;
+    position: relative;
 }
 .app-logo {
     display: inline-block;
@@ -180,4 +198,161 @@ h6{
     float: right;
     vertical-align: middle;
     margin-top: 4px;
+}
+.sidebar-user-profile {
+    background-color: #323232;
+    position: relative;
+}
+.profile-wrap {
+    padding: 16px 20px 16px 30px;
+}
+.profile-picture {
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile-picture img {
+    vertical-align: middle;
+}
+.user-name-position {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.expand-more {
+    position: absolute;
+    right: 20px;
+    top: 38px;
+}
+.user-name-position h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #9B9B9B;
+    margin-top: 8px;
+}
+.sidebar-navigation {
+    position: relative;
+    padding-top: 20px;
+}
+.task-overview {
+    display: flex;
+    padding: 0 20px 30px 30px;
+}
+.task-overview h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.task-overview h6 {
+    font-size: 12px;
+    color: #9b9b9b;
+}
+.completed-tasks {
+    margin-right: 20px;
+}
+.sidebar-menu {
+    position: relative;
+    margin-bottom: 30px;
+}
+.sidebar-menu h6 {
+    font-size: 12px;
+    color: #9b9b9b;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-bottom: 12px;
+}
+.sidebar-menu ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fbfbfb;
+    font-weight: bold;
+    padding: 12px 0 13px 30px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.menu-nav li a span {
+    margin-left: 12px;
+    background-color: #FFC200;
+    padding: 2px 9px;
+    border-radius: 48px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.menu-nav img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.active {
+    background-color: #242424;
+    position: relative;
+}
+.sidebar-menu > ul > li.active > a:before, .sidebar-menu > ul > li:hover > a:before  {
+    opacity: 1;
+}
+.sidebar-menu > ul > li > a::before {
+    content: "";
+    position: absolute;
+    background-color: #FFC200;
+    width: 5px;
+    height: 44px;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+}
+.add-project-btn {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding: 12px 0 12px 30px;
+    color: #FFC200;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease-out;
+}
+.add-project-btn:hover {
+    color: #ffd85b;
+    font-size: 16px;
+}
+.sidebar-teams {
+    margin-bottom: 200px;
+}
+.avatar-wrap {
+    position: absolute;
+    top: 33px;
+    right: 20px;
+}
+.avatar-wrap img {
+    margin-right: 5px;
+}
+.avatar-wrap-backend {
+    position: absolute;
+    top: 73px;
+    right: 16px;
+}
+.avatar-wrap-frontend {
+    position: absolute;
+    top: 112px;
+    right: 16px;
+}
+.invite-link {
+    padding: 0 0 34px 30px;
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: normal;
+}
+.invite-link a {
+    color: #FFC200;
+}
+
+/* Main Content */
+.main-content {
+    min-height: 100vh;
+    margin-left: 270px;
 }
