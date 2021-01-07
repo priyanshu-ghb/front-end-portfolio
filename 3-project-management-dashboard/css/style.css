@@ -163,18 +163,15 @@ h6{
 
 .app-sidebar {
     float: left;
-    height: 100vh;
+    min-height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #121212;
     width: 270px;
 }
-.sidebar-container {
-    padding: 32px 20px 36px 30px;
-}
 .sidebar-header {
-    margin-bottom: 30px;
+    padding: 30px 20px 30px 30px;
 }
 .app-logo {
     display: inline-block;
@@ -183,34 +180,4 @@ h6{
     float: right;
     vertical-align: middle;
     margin-top: 4px;
-}
-.user-profile {
-    overflow: visible;
-    background-color: #484848;
-    position: absolute;
-    width: 100%;
-    left: 0;
-}
-.profile-container {
-    padding: 16px 20px 16px 30px;
-}
-.user-image {
-    display: inline-block;
-    vertical-align: middle;
-}
-.user-info {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 14px;
-}
-.user-info h6 {
-    margin-top: 6px;
-}
-.expand-more {
-    height: inherit;
-    display: inline-block;
-    position: absolute;
-    right: 18px;
-    top: 25%;
-    cursor: pointer;
 }
