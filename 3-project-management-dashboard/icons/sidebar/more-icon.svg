@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4">
+  <defs>
+    <style>
+      .cls-more {
+        fill: #9b9b9b;
+      }
+    </style>
+  </defs>
+  <path id="more-icon" class="cls-more" d="M12,2a2,2,0,1,1,2,2A2,2,0,0,1,12,2ZM6,2A2,2,0,1,1,8,4,2,2,0,0,1,6,2ZM0,2A2,2,0,1,1,2,4,2,2,0,0,1,0,2Z"/>
+</svg>

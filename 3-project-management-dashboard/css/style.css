@@ -134,11 +134,32 @@ table {
     position: relative;
     min-height: 100vh;
 }
+.sidebar-header,.sidebar-container {
+    position: relative;
+}
+/* sidebar-common */
+.heebo-bold-title{
+    font-size: 26px;
+    font-weight: bold;
+    color: #131313;
+}
+.heebo-bold-medium{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fbfbfb;
+}
+h6{
+    font-size: 12px;
+    font-weight: bold;
+    color: #878787;
+}
 
 
 
 
 /* Custom CSS */
+
+/*----------------Sidebar--------------------- */
 
 .app-sidebar {
     float: left;
@@ -149,7 +170,47 @@ table {
     background-color: #121212;
     width: 270px;
 }
-.app-sidebar-container {
+.sidebar-container {
     padding: 32px 20px 36px 30px;
-    position: relative;
+}
+.sidebar-header {
+    margin-bottom: 30px;
+}
+.app-logo {
+    display: inline-block;
+}
+.search-field {
+    float: right;
+    vertical-align: middle;
+    margin-top: 4px;
+}
+.user-profile {
+    overflow: visible;
+    background-color: #484848;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.profile-container {
+    padding: 16px 20px 16px 30px;
+}
+.user-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+.user-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 14px;
+}
+.user-info h6 {
+    margin-top: 6px;
+}
+.expand-more {
+    height: inherit;
+    display: inline-block;
+    position: absolute;
+    right: 18px;
+    top: 25%;
+    cursor: pointer;
 }
