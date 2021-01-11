@@ -464,10 +464,17 @@ header {
     margin-right: 30px;
     padding-bottom: 10px;
     position: relative;
+    border-bottom: 2px solid rgba(255,194,0,0);
+    transition: 0.2s ease-in-out;
+}
+.main-nav > ul > li.main-active, 
+.main-nav > ul > li:hover {
+    border-bottom: 2px solid rgba(255,194,0,1);
+    color: #121212;
 }
 .main-nav ul li a {
     text-decoration: none;
     text-transform: capitalize;
     color: #595959;
-    border-bottom: #FFC200;
 }
+
