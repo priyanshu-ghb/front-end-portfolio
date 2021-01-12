@@ -1,0 +1,15 @@
+<svg id="tick-disabled-xl" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eaeaea;
+      }
+
+      .cls-2 {
+        fill: #9b9b9b;
+      }
+    </style>
+  </defs>
+  <rect id="Base" class="cls-1" width="40" height="40" rx="4"/>
+  <path id="Path" class="cls-2" d="M15.415.587a2.007,2.007,0,0,0-2.832,0L6,7.172,3.413,4.587A2,2,0,0,0,.585,7.416l4,4a2,2,0,0,0,2.828,0l8-8A2,2,0,0,0,15.415.587Z" transform="translate(12 14.667)"/>
+</svg>

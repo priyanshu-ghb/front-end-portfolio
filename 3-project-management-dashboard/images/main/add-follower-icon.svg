@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eaeaea;
+      }
+
+      .cls-2 {
+        fill: #9b9b9b;
+      }
+    </style>
+  </defs>
+  <g id="add-follower-icon" transform="translate(-0.435)">
+    <circle id="Oval" class="cls-1" cx="10" cy="10" r="10" transform="translate(0.435)"/>
+    <path id="_" data-name="+" class="cls-2" d="M9,5.587H5.8V9H3.228V5.587H0V3.277H3.228V0H5.8V3.277H9Z" transform="translate(5.935 5.5)"/>
+  </g>
+</svg>

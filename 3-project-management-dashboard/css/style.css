@@ -658,6 +658,7 @@ header {
     float: left;
     background-color: #fff;
     border-radius: 8px;
+    margin-right: 30px;
 }
 
 .activity-wrap-left {
@@ -731,7 +732,7 @@ header {
     vertical-align: middle;
     margin-right: 10px;
 }
-.msg-row a {
+.development a {
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
@@ -742,13 +743,190 @@ header {
     border-radius: 80px;
 }
 .marketing a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 80px;
     background-color: #F5F0FF;
     color: #764CED;
 }
 .design a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2px 10px;
+    border-radius: 80px;
     background-color: #E3EFFF;
     color: #1975D0;
 }
 .todo-wrap {
     margin-top: 30px;
 }
+
+/* Activity Right */
+.activity-right {
+    float: left;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 864px;
+}
+.activity-wrap-right{
+    padding: 30px;
+    position: relative;
+}
+.customer-requests-top {
+    position: relative;
+}
+.requests-title {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 32px;
+}
+.requests-title h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #131313;
+    line-height: 30px;
+}
+.requests-title span {
+    font-size: 16px;
+    font-weight: normal;
+    color: #131313;
+}.more-buttons {
+    display: inline-flex;
+    align-items: baseline;
+}
+.more-buttons > img:first-child {
+    margin-right: 20px;
+}
+
+/* Requests Details */
+.requests-detail {
+    padding-bottom: 32px;
+    border-bottom: 1px solid #ECECEC;
+}
+.requests-detail ul {
+    display: flex;
+    justify-content: space-between;
+}
+.requests-detail ul li {
+    font-size: 16px;
+    font-weight: bold;
+    color: #131313;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+.requests-detail ul li span {
+    font-weight: 400;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.asign img {
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+.followers img {
+    margin-right: 5px;
+}
+.followers img:last-child {
+    cursor: pointer;
+}
+.requests-description {
+    margin-top: 30px;
+    position: relative;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #ECECEC;
+}
+.requests-description h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #131313;
+    margin-bottom: 22px;
+}
+.requests-description > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #131313;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+}
+.description-files{
+    display: flex;
+    align-items: center;
+}
+.file-common {
+    margin-right: 32px;
+}
+.file-common p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: bold;
+    color: #131313;
+    margin-left: 12px;
+}
+.file-common span {
+    display: block;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #595959;
+}
+.delete-text-btn {
+    border: transparent;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF1000;
+    margin-left: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+/* Discussion */
+.discussion-bottom {
+    margin-top: 30px;
+    position: relative;
+}
+.discussion-bottom h3{
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+color: #131313;
+margin-bottom: 22px;
+}
+.add-comment {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.comments li input {
+    margin-left: 10px;
+    border: none;
+    background-color: #EAEAEA;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+}
+.comments li input[type="text"] {
+    color: #7f7f7f;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 16px;
+}
+.comments li input[type="text"]:focus {
+    border: 2px solid #7F7F7F;
+    outline: transparent;
+    border-radius: 4px;
+}
+
+

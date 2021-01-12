@@ -1,0 +1,15 @@
+<svg id="more-disabled-xl" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eaeaea;
+      }
+
+      .cls-2 {
+        fill: #9b9b9b;
+      }
+    </style>
+  </defs>
+  <rect id="Base" class="cls-1" width="40" height="40" rx="20"/>
+  <path id="More_Icon" data-name="More Icon" class="cls-2" d="M13.5,2.25A2.25,2.25,0,1,1,15.75,4.5,2.25,2.25,0,0,1,13.5,2.25Zm-6.75,0A2.25,2.25,0,1,1,9,4.5,2.25,2.25,0,0,1,6.75,2.25ZM0,2.25A2.25,2.25,0,1,1,2.25,4.5,2.25,2.25,0,0,1,0,2.25Z" transform="translate(11 18.902)"/>
+</svg>
