@@ -646,6 +646,7 @@ header {
     width: auto;
     right: 0;
     left: 270px;
+    overflow: auto;
 }
 
 .project-activity-wrap {
@@ -658,7 +659,6 @@ header {
     float: left;
     background-color: #fff;
     border-radius: 8px;
-    margin-right: 30px;
 }
 
 .activity-wrap-left {
@@ -700,7 +700,6 @@ header {
 }
 
 .add-task-btn {
-    vertical-align: middle;
     border: none;
     color: #1D201C;
     background-color: #CEF9C6;
@@ -709,6 +708,11 @@ header {
     text-transform: capitalize;
     padding: 18px 20px;
     border-radius: 80px;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+.add-task-btn:hover {
+    background-color: #9CEA8D;
 }
 .backlog-msg {
     position: relative;
@@ -768,7 +772,7 @@ header {
 
 /* Activity Right */
 .activity-right {
-    float: left;
+    float: right;
     background-color: #fff;
     border-radius: 8px;
     width: 864px;
@@ -781,9 +785,8 @@ header {
     position: relative;
 }
 .requests-title {
-    display: flex;
+    display: inline-flex;
     align-content: center;
-    justify-content: space-between;
     position: relative;
     margin-bottom: 32px;
 }
@@ -792,6 +795,7 @@ header {
     font-weight: bold;
     color: #131313;
     line-height: 30px;
+    margin-right: 132px;
 }
 .requests-title span {
     font-size: 16px;
@@ -811,15 +815,13 @@ header {
     border-bottom: 1px solid #ECECEC;
 }
 .requests-detail ul {
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
 }
 .requests-detail ul li {
     font-size: 16px;
     font-weight: bold;
     color: #131313;
     display: inline-block;
-    vertical-align: top;
     margin-right: 40px;
 }
 .requests-detail ul li span {
