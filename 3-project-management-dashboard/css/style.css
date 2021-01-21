@@ -652,6 +652,7 @@ header {
     padding: 30px;
     position: relative;
     height: 100vh;
+    overflow: auto;
 }
 
 .activity-left {
@@ -1078,4 +1079,7 @@ hr {
 }
 .custom-title-center h3 {
     text-align: center;
+}
+.custom-margin-bottom > li {
+    margin-bottom: 226px;
 }
